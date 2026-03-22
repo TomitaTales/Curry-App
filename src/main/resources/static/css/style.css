@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #d2691e;
+    color: white;
+    padding: 16px;
+}
+.layout {
+    display: flex;
+    min-height: calc(100vh - 60px);
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #f4f4f4;
+    padding: 16px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+    padding: 24px;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-area {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.form-row label {
+    width: 140px;
+    font-weight: bold;
+}
+
+.form-row input,
+.form-row select {
+    width: 320px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button-row {
+    margin-top: 24px;
+}
+
+.button-row button,
+.button-row a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.alert-success-box {
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border-radius: 4px;
+}
+
+.table-wrap {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #eef3f8;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.badge-success,
+.badge-secondary {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.badge-success {
+    background-color: #198754;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+}

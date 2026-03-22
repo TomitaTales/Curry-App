@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+    <div th:fragment="sidebar">
+        <nav class="sidebar">
+            <ul>
+                <li><a th:href="@{/Top}">トップ</a></li>
+                <li><a th:href="@{/products/form}">商品登録</a></li>
+                <li><a th:href="@{/products/list}">商品一覧</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
