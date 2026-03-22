@@ -7,14 +7,14 @@
 </head>
 <body>
 
-<div th:replace="~{common/header :: header}"></div>
+<div th:replace="~{common/header :: header}" class="app-header"></div>
 
 <div class="layout">
     <!-- サイドバー -->
-    <div th:replace="~{common/sidebar :: sidebar}"></div>
+    <div th:replace="~{common/sidebar :: sidebar}" class="app-sidebar"></div>
 
     <!-- メイン表示 -->
-    <main class="content">
+    <main class="app-main">
         <h2>トップ画面</h2>
         <p>カレー専門店システムへようこそ。</p>
     </main>
